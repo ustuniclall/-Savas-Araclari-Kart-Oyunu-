@@ -1,0 +1,35 @@
+# --- NetBeans IDE Derleme ve Dağıtım Klasörleri ---
+build/
+dist/
+nbbuild/
+nbdist/
+.netbeans_automatic_build
+.netbeans_update_resources
+
+# --- NetBeans Kullanıcıya Özel Yerel Ayarlar ---
+# (Kendi bilgisayarınızdaki pencere konumları vb. repoya gidip çakışma yaratmaz)
+nbproject/private/
+built-jar.properties
+
+# --- Popüler Diğer IDE Kalıntıları (IntelliJ / VS Code) ---
+.idea/
+.vscode/
+out/
+bin/
+.settings/
+.classpath
+.project
+
+# --- Java Derleme Çıktıları ---
+*.class
+*.jar
+*.war
+
+# --- Sistem ve Geçici Log Dosyaları ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Yerel Test Raporları (Raporunuz repoda kalabilir ama yedekleri engeller) ---
+*.bak
+*.tmp
